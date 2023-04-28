@@ -15,7 +15,7 @@
                 int extendedValue = -1;
                 for (int i = digits.Length - 1; i >= 0; i--)
                 {
-                    if (extendedValue != 1)
+                    if (extendedValue == 0)
                     {
                         result[i] = digits[i];
                         continue;
