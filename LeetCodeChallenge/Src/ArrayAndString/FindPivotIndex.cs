@@ -1,5 +1,4 @@
-﻿namespace ArrayAndString;
-
+﻿
 public class PivotIndexSolution
 {
     public int PivotIndex(int[] nums)
